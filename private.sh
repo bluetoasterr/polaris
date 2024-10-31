@@ -2,12 +2,6 @@ main() {
 clear
 echo -e "[ Polaris V1 Install Script | @norbyx1_ ]"
 echo -e "----------------------------------------------------"
-jsonurl -s "https://clientsettingscdn.roblox.com/v2/client-version/MacPlayer")
-local versioecho "$json" | grep -o '\''"clientVersionUpload":"[^"]*'\'' | grep -o '\''[^"]*$'\'')
-if [ "$version" version-c9ef7801f4014eac"  then
-echo -e "Polaris has not yet updated to the latest version of Roblox ($version aborting installation!"
-exit 1
-fi
 echo -e "[...] Downloading Polaris UI assets"
 curl "https://djtthjozgtvcaixs.public.blob.vercel-storage.com/PolarisUI.zip" -o "./PolarisUI.zip"
 unzip -o -q "./PolarisUI.zip"
