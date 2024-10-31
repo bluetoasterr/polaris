@@ -1,10 +1,10 @@
 main() {
 clear
-echo -e "[ Polaris V1 Install Script | updated faster :3 bluetoasterrr ]"
+echo -e "[ Polaris V1 Install Script | @norbyx1_ ]"
 echo -e "----------------------------------------------------"
 jsonurl -s "https://clientsettingscdn.roblox.com/v2/client-version/MacPlayer")
-local versioecho "$json" | grep -o '''"clientVersionUpload":"[^"]''' | grep -o '''[^"]$''')
-if [ "$version" version-35fcbd5d50d74403"  then
+local versioecho "$json" | grep -o '\''"clientVersionUpload":"[^"]*'\'' | grep -o '\''[^"]*$'\'')
+if [ "$version" version-c9ef7801f4014eac"  then
 echo -e "Polaris has not yet updated to the latest version of Roblox ($version aborting installation!"
 exit 1
 fi
