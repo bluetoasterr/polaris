@@ -1,6 +1,6 @@
 main() {
 clear
-echo -e "[ Polaris V1 Install Script | @norbyx1_ ]"
+echo -e "[ Polaris V1 Install Script | @lol.net ]"
 echo -e "----------------------------------------------------"
 echo -e "[...] Downloading Polaris UI assets"
 curl "https://djtthjozgtvcaixs.public.blob.vercel-storage.com/PolarisUI.zip" -o "./PolarisUI.zip"
